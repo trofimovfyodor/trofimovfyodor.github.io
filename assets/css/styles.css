@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	background-color: #212121;
+	font-family: "Roboto", sans-serif;
+}
+
+nav {
+	display: grid;
+	background-color: #2c3e50;
+	grid-template-columns: 25% 75%;
+	align-content: center;
+	padding: 1%;
+	color: #f5f5f5;
+	font-size: 1.2rem;
+}
+
+.brand {
+	justify-self: start;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.services {
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	grid-column-gap: 1%;
+	padding-top: 4%;
+	padding-left: 1%;
+	padding-bottom: 3%;
+}
+
+.service {
+	background-color: #2c3e50;
+	display: grid;
+	grid-template-rows: 10% 70% 20%;
+}
+
+.service > h2 {
+	justify-self: center;
+	color: #f5f5f5;
+}
+
+.service > p {
+	padding-top: 5%;
+	color: #f5f5f5;
+	justify-self: center;
+}
+
+.service > button {
+	background-color: #455A64;
+	border: none;
+	color: #f5f5f5;
+	cursor: pointer;
+}
+
+.service > button:hover {
+	color: #f5f5f5;
+	background-color: #90A4AE;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.works {
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	grid-column-gap: 1%;
+	padding-top: 1%;
+	grid-row-gap: 12%;
+	padding-left: 1%;
+}
+
+.work {
+	background-color: #2c3e50;
+	display: grid;
+	grid-template-rows: 70% 30%;
+}
+
+.work > h2 {
+	justify-self: center;
+	color: #f5f5f5;
+}
+
+.work > button {
+	color: #f5f5f5;
+	background-color: #455A64;
+	border: none;
+}
+
+.work > button:hover {
+	color: #f5f5f5;
+	background-color: #90A4AE;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.contacts {
+	display: grid;
+	grid-template-columns: 33.333% 33.333% 33.333%;
+	padding-top: 5%;
+	padding-left: 20%;
+}
+
+.vk > a {
+	background-color: #2d2d2d;
+	padding: 5%;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.kwork > a {
+	background-color: #2d2d2d;
+	padding: 5%;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.discord > a {
+	background-color: #2d2d2d;
+	padding: 5%;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.kwork > a:hover {
+	color: #f5f5f5;
+	background-color: #90A4AE;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.discord > a:hover {
+	color: #f5f5f5;
+	background-color: #90A4AE;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.vk > a:hover {
+	color: #f5f5f5;
+	background-color: #90A4AE;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+	.services {
+	grid-template-columns: 100%;
+	}
+
+	.works {
+	grid-template-columns: 100%;
+	}
+
+	.contacts {
+	grid-template-columns: 33.333% 33.333% 33.333%;
+	}
+}
