@@ -3,68 +3,147 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<script src="assets/js/main.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	<title>trofimovfedor | official page</title>
+	<link rel="stylesheet" href="assets/styles.css">
+	<link rel="stylesheet" href="assets/fonts/font.css">
+	<script>
+		function openmenu() {
+			document.getElementById('menu').style.display;
+			document.getElementById('menu').style.display = 'block';
+			document.getElementById('menubtn').style.display;
+			document.getElementById('menubtn').style.display = 'none';
+		}
+	</script>
+	<title>NameOfServer | Сервер Майнкрафт</title>
 </head>
 <body>
+
+<div class="black-bg">
+
 	<nav>
-		<a class="brand" href="">trofimovfedor</a>
+		<span class="logotype"><a href="">NameOfServer</a></span>
+		<div id="menu" style="display: none">
+			<a href="">Главная <br></a>
+			<a href="">Сервера <br></a>
+			<a href="">Донат <br></a>
+			<a href="">Форум <br></a>
+			<a href="">Информация</a>
+		</div>
+
+		<div class="links">
+			<a href="">Главная</a>
+			<a href="">Сервера</a>
+			<a href="">Донат</a>
+			<a href="">Форум</a>
+			<a href="">Информация</a>
+		</div>
+		<div onclick="openmenu()" class="btn"><svg id="menubtn" xmlns="https://www.w3.org/2000/svg" version="1" viewBox="0 0 512 512"><path fill="#fff" d="M491 235H21a21 21 0 1 0 0 42h470a21 21 0 1 0 0-42zM491 78H21a21 21 0 0 0 0 42h470a21 21 0 1 0 0-42zM491 392H21a21 21 0 1 0 0 42h470a21 21 0 1 0 0-42z"></path></svg></div>
 	</nav>
 
-	<div class="services">
-		<div class="service">
-			<h2>Верстка</h2>
-			<p>Сверстаю для вас макет любой сложности быстро и качественно</p>
-			<button>Заказать</button>
-		</div>
+	<img src="assets/images/7936.svg" alt="">
 
-		<div class="service">
-			<h2>Исправление верстки</h2>
-			<p>Скорректирую для вас уже сверстанный макет</p>
-			<button>Заказать</button>
+	<div class="about">
+		<div class="first-about">
+			<p class="title">LOREM IPSUM <br> DOLOR SIT AMET</p>
+			<p class="description">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Quae veniam, esse <br> facilis commodi. Ratione neque cupiditate id, pariatur<br> necessitatibus molestiae</p>
+			<button class="redbtn">Lorem ipsum</button>
+			<button class="graybtn">Lorem ipsum</button>
 		</div>
+		<div class="second-about"></div>
+	</div>
+</div>
 
-		<div class="service">
-			<h2>Ускорение сайта</h2>
-			<p>Увеличю скорость загрузки вашего сайта до нужного вам пункта Google PageSpeed Insights</p>
-			<button>Заказать</button>
-		</div>
-
-		<div class="service">
-			<h2>Копия сайта</h2>
-			<p>Понравилась идея какого-то сайта? Хочется так же? Я могу вам помочь</p>
-			<button>Заказать</button>
-		</div>
+<div class="servers-title"><p>Сервера</p></div>
+<div class="servers">
+	<div class="server">
+		<p>Server 1</p>
+		<p>59/100</p>
 	</div>
 
-	<div class="works">
-		<div class="work">
-			<h2>Копия сайта SimpleMinecraft</h2>
-			<button>Перейти</button>
-		</div>
-
-		<div class="work">
-			<h2>Исправление верстки для команды Kwarp</h2>
-			<button>Перейти</button>
-		</div>
-
-		<div class="work">
-			<h2>Верстка портфолио</h2>
-			<button>Перейти</button>
-		</div>
-
-		<div class="work">
-			<h2>Ускорение сайта для студии MineStudio</h2>
-			<button>Перейти</button>
-		</div>
+	<div class="server">
+		<p>Server 2</p>
+		<p>59/100</p>
 	</div>
 
-	<div class="contacts">
-		<div class="vk"><a href="https://vk.com/trofimovfedor">VK</a></div>
-		<div class="kwork"><a href="">KWORK</a></div>
-		<div class="discord"><a href="">DISCORD</a></div>
+	<div class="server">
+		<p>Server 3</p>
+		<p>59/100</p>
 	</div>
+
+	<div class="server">
+		<p>Server 4</p>
+		<p>59/100</p>
+	</div>
+
+	<div class="server">
+		<p>Server 5</p>
+		<p>59/100</p>
+	</div>
+</div>
+
+
+<div class="store">
+	<div class="enternick">
+		<form action="" method="POST">
+			<input class="nickname" type="text" placeholder="Введите ваш ник">
+		</form>
+	</div>
+
+	<div class="choise">
+		<button>SkyWars</button>
+		<button>BedWars</button>
+		<button>Другое</button>
+	</div>
+
+<div class="privilages">
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+
+	<div class="donate">
+		<p class="donatetitle">Premium</p>
+		<p>15 Рублей</p>
+		<button>Купить</button>
+	</div>
+</div>
+
+
 </body>
 </html>
